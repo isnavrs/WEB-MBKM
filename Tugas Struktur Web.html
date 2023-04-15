@@ -39,13 +39,13 @@
                 list-style: none;
                 color: black;
                 font-size: 100%;}
-            li{color: black; padding: 10px;}
+            li{color: black; padding: 1px;}
 
             img{width: 100%;}
             
             aside{width: 20%;
                 margin-right: 10px;
-                background-color:rgb(159, 118, 188)}
+                background-color:rgb(94, 52, 123)}
 
             #logo{width: 100px;
                 margin: auto;
@@ -73,6 +73,28 @@
                 font-weight: bolder;
                 text-shadow: 10px;
                 text-align: center;}
+            
+            .sidebar h3{
+                font-size: 28px;
+                color: white;
+                line-height: 70px;
+                text-align: center;
+                user-select: none;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+            .sidebar a{
+                display: block;
+                height: 65px;
+                width: 100%;
+                color: white;
+                line-height: 65px;
+                padding-left: 30px;
+                box-sizing: border-box;
+                border-bottom: 1px solid black;
+                border-top: 1px solid rgba(255,255,255,.1);
+                border-left: 5px solid transparent;
+                font-family: 'Open Sans', sans-serif;}
         </style>
         
     </head>
@@ -92,7 +114,23 @@
         </header>
 
         <main>
-            <aside>SIDEBAR</aside>
+            <aside>
+                <div class="sidebar">
+                    <h3>My Menu</h3>
+                    <a href="#" class="active"><i class=""></i>
+                        <span>Dashboard</span></a>
+                    <a href="#"><i class=""></i>
+                        <span>Shortcuts</span></a>
+                    <a href="#"><i class=""></i>
+                        <span>Overview</span></a>
+                    <a href="#"><i class=""></i>
+                        <span>Events</span></a>
+                    <a href="#"><i class=""></i>
+                        <span>Services</span></a>
+                    <a href="#"><i class=""></i>
+                        <span>Contact</span></a>
+                </div>
+            </aside>
         <section>
             <h2>ONE OF MY FAVORITE SERIES</h2>
             <article>
