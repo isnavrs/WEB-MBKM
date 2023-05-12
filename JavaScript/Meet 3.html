@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Hello World 3</title>
+        <style>
+            body{font-family: 'Trebuchet MS', sans-serif;
+                margin-left: 10px;}
+        </style>
+    </head>
+
+    <body>
+       <script>
+            for (let counter = 1; counter <= 10; counter++)
+                {document.writeln("<p>Merupakan Perulangan Ke-"+counter+"</p>");}
+
+        document.writeln("</br>")
+
+            let ulang =10
+            while(ulang >=1)
+                {document.writeln("<p>Perulangan Ke-"+ulang+"</p>");
+                ulang--}
+
+        document.writeln("</br>")
+
+            function segitiga1(baris){
+            let pola = ''; for(let i=1; i<=baris; i++){
+                for (let j=1; j<=i; j++){
+                pola += "&#9733 ";}
+                pola += '</br>';}
+                return pola;}
+            document.writeln(segitiga1(5));
+
+       </script> 
+    </body>
+</html> 
