@@ -1,0 +1,105 @@
+*{margin: 0px;
+    padding: 0px;
+}
+.bgimage{
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)),url(bg\ tugas.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.leftmenu{
+    width: 30%;
+    line-height: 100Px;
+    float: left;
+}
+.leftmenu h4{
+    padding-left: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat', sans-serif;
+}
+.rightmenu{
+    width: 70%;
+    height: 100Px;
+    float: right;
+}
+.rightmenu ul{
+    margin-left: 200px;
+}
+.rightmenu ul li{
+    display: inline-block;
+    font-family: 'montserrat', sans-serif ;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.rightmenu ul li:hover{
+    color: #00ccff;
+}
+#firstlist{
+    color: aliceblue; 
+}
+
+.text{
+    width: 100%;
+    margin-top:140px ;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+
+}
+.text h4{
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+}
+.text h1{
+    font-size: 50px;
+    font-family: 'montserrat', sans-serif ;
+    font-weight: 700px;
+    margin: 14px 0px;
+}
+.text h3{
+    font-size: 15px;
+    margin: 20px;
+    font-family: 'open sans', sans-serif;
+}
+.btn{
+    background-color: rgba(255,255,255, 0.164);
+    color: white;
+    font-family: 'montserrat', sans-serif ;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    font-size: 15px;
+    font-family: 'montserrat', sans-serif;
+    color: aliceblue;
+    margin-top: 110px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}

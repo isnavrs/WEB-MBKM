@@ -1,0 +1,127 @@
+*{margin: 0px;
+    padding: 0px;
+}
+.bgimage{
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)),url(bg\ referensi.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 112vh;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.leftmenu{
+    width: 30%;
+    line-height: 100Px;
+    float: left;
+}
+.leftmenu h4{
+    padding-left: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat', sans-serif;
+}
+.rightmenu{
+    width: 70%;
+    height: 100Px;
+    float: right;
+}
+.rightmenu ul{
+    margin-left: 200px;
+}
+.rightmenu ul li{
+    display: inline-block;
+    font-family: 'montserrat', sans-serif ;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.rightmenu ul li:hover{
+    color: #00ccff;
+}
+#firstlist{
+    color: aliceblue; 
+}
+
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.content .text {
+    position: relative;
+    max-width: 600px;
+    margin-left: 20px;
+}
+.content .text h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 80px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    font-size: 25px;
+    color: #fff;
+}
+.content .text h2 span {
+    font-size: 50px;
+    line-height: 1em;
+}
+.content .text p {
+    font-family: montserat, monospace;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 40px;
+    color: #e7e3e3;
+ }
+.btn{
+    background: linear-gradient(to bottom, #cbcbcb 2%, #fff 100%);
+    margin-top: 60px;
+    margin-left: 140px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: .5s;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    cursor: pointer;
+}
+
+.buku {
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 600px;
+    margin-top: 80px;
+    padding-left: 480px;
+    justify-content: flex-end;
+}
+
+footer{
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+    color: aliceblue;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
